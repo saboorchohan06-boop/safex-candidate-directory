@@ -1,39 +1,49 @@
-# SafeX Candidate Directory
+# 🗂️ SafeX Candidate Directory
 
-A Candidate Directory feature built for the SafeX Intern Candidate Management Portal, as part of a solo skill-development internship task.
+![MERN](https://img.shields.io/badge/Stack-MERN-5B8C5A?style=flat-square)
+![React](https://img.shields.io/badge/React-Vite-149ECA?style=flat-square&logo=react&logoColor=white)
+![Node](https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-v4-E8871E?style=flat-square&logo=tailwindcss&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-5B8C5A?style=flat-square)
+
+A Candidate Directory feature built for the **SafeX Intern Candidate Management Portal**, as part of a solo skill-development internship task.
 
 The directory lets an admin view, add, edit, delete, search, and filter intern candidates — organized by group, with real data seeded from SafeX's internal candidate records.
 
 ---
 
-## Live Demo
+## 🎥 Demo
 
-- **Demo video:** [\[add your Google Drive link here\]](https://drive.google.com/file/d/16DyWbQnOk6f3rNtWJwImw5Eh_JNH-5fK/view?usp=sharing)
-- **GitHub repo:** https://github.com/saboorchohan06-boop/safex-candidate-directory
+▶️ **Watch the demo video:** [SafeX Candidate Directory — Demo](https://drive.google.com/file/d/16DyWbQnOk6f3rNtWJwImw5Eh_JNH-5fK/view?usp=sharing)
 
----
-
-## Features
-
-- Candidate directory grouped by Group number (Group 1 → last group), sorted with Leader shown first
-- Add / Edit / Delete a candidate
-- Search by name
-- Filter by Group, Role (Leader/Member), and Task Status (Pending/In Progress/Completed)
-- Loading and error states for the backend fetch
-- Responsive layout — works on desktop and mobile
-- 521 real candidate records seeded from SafeX's official spreadsheet
+🔗 **GitHub repo:** [safex-candidate-directory](https://github.com/saboorchohan06-boop/safex-candidate-directory)
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-**Frontend:** React (Vite), Tailwind CSS v4, Axios
-**Backend:** Node.js, Express.js
-**Database:** MongoDB Atlas, Mongoose
+- 📁 Candidate directory grouped by Group number (Group 1 → last group), Leader shown first
+- ➕ Add / ✏️ Edit / 🗑️ Delete a candidate
+- 🔍 Search by name
+- 🎚️ Filter by Group, Role (Leader/Member), and Task Status (Pending/In Progress/Completed)
+- ⏳ Loading and ❌ error states for the backend fetch
+- 📱 Responsive layout — works on desktop and mobile
+- 🌱 521 real candidate records seeded from SafeX's official spreadsheet
 
 ---
 
-## Candidate Schema
+## 🛠️ Tech Stack
+
+| Layer | Tech |
+|---|---|
+| Frontend | React (Vite), Tailwind CSS v4, Axios |
+| Backend | Node.js, Express.js |
+| Database | MongoDB Atlas, Mongoose |
+
+---
+
+## 🧬 Candidate Schema
 
 Each candidate record matches SafeX's official Week 1 deliverable fields:
 
@@ -52,7 +62,7 @@ Each candidate record matches SafeX's official Week 1 deliverable fields:
 
 ---
 
-## How to Run Locally
+## 🚀 How to Run Locally
 
 ### 1. Clone the repo
 ```bash
@@ -86,11 +96,11 @@ npm run dev
 ```
 
 ### 4. Open the app
-Visit `http://localhost:5173` in your browser. Make sure the backend is running on `http://localhost:5000` at the same time.
+Visit **http://localhost:5173** in your browser. Make sure the backend is running on `http://localhost:5000` at the same time.
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 candidate-portal/
@@ -121,13 +131,13 @@ candidate-portal/
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 *(Add 1–2 screenshots here — directory view and the add/edit form)*
 
 ---
 
-## Notes / Scope
+## 📝 Notes / Scope
 
 - No authentication or login — out of scope for this Week 1 deliverable per the official requirement.
 - No deployment — running locally is sufficient for this task; deployment can be added as a future iteration.
@@ -135,7 +145,8 @@ candidate-portal/
 
 ---
 
-## Author
+## 👤 Author
 
-Abdul Saboor — Bahria University Islamabad
-SafeX Internship, Web Development Track
+**Abdul Saboor**
+Bahria University Islamabad
+SafeX Internship — Web Development Track
