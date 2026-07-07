@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/*
+  Design tokens for the SafeX Candidate Directory.
+  Organic, fruit-inspired palette — deliberately avoids the
+  indigo/purple-gradient look common in generic dashboard UIs.
+*/
+@theme {
+  --color-cream: #faf7f2;
+  --color-cream-dark: #f0e9dd;
+  --color-charcoal: #2b2521;
+  --color-charcoal-soft: #6b625a;
+
+  --color-mango: #e8871e;
+  --color-mango-dark: #c96a0f;
+  --color-mango-light: #fbe8d2;
+
+  --color-fig: #4a2e1f;
+
+  --color-guava: #5b8c5a;
+  --color-guava-light: #e4eee1;
+
+  --color-papaya: #e2a63b;
+  --color-papaya-light: #fbf0dc;
+
+  --color-blood: #c1440e;
+  --color-blood-light: #fbe7df;
+
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+}
+
+/* Shared form input style used across CandidateForm fields */
+.input {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+  border: 1px solid var(--color-cream-dark);
+  border-radius: 0.5rem;
+  padding: 0.55rem 0.75rem;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.input:focus {
+  border-color: var(--color-mango);
+}
