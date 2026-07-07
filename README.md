@@ -8,7 +8,7 @@ The directory lets an admin view, add, edit, delete, search, and filter intern c
 
 ## Live Demo
 
-- **Demo video:** [add your Google Drive link here]
+- **Demo video:** [\[add your Google Drive link here\]](https://drive.google.com/file/d/16DyWbQnOk6f3rNtWJwImw5Eh_JNH-5fK/view?usp=sharing)
 - **GitHub repo:** https://github.com/saboorchohan06-boop/safex-candidate-directory
 
 ---
